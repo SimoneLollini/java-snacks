@@ -9,7 +9,7 @@ public class Snack_1 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+        scan.close();
         System.out.print("Inserisci un numero: ");
         int number = scan.nextInt();
 
